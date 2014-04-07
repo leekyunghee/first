@@ -1,8 +1,8 @@
 KitchenTeam First Project Template
 =====
 
-# 목적
-프로젝트를 진행하기 위한 초기 아키택쳐 수립
+# 목표
+프로젝트를 진행하기 위한 초기 아키택쳐 수립하여 초기 개발을 쉽게하는 것을 목표로 한다.
 
 # 개발 환경
  * STS(Spring Tool Suite)
@@ -21,11 +21,9 @@ KitchenTeam First Project Template
 # 해결과제
 ## Presentation Layer ArchitectureEdit
  * Backbone.js 적용
- * 
 
 ## Application Layer ArchitectureEdit
  * 담당자 기록
- * 
 
 ## Chart Architecture
  * 담당자 기록
