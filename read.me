@@ -44,12 +44,20 @@ Feature-Driven Folder Structure and Screaming Architecture
     │               ├── admin
     │               │   # It is sub module 
     │               ├── apps
+    │                   ├── pages
+    │                   │   # This page is the top-level component that contains all pages.
+    │                   └── _app.tsx
+    │                   │   # has a static files
+    │                   ├── public
+    │                   └── mockServiceWorker.js
+    │                   ├── sdnc
+    │                        ├── mocks
+    │                   └── .env
+    │                   └── package.json
     │               ├── dashboard
     │               ├── datacenters
     │               ├── debug
     │               ├── events
-    │               ├── goodbyeworld
-    │               ├── helloworld
     │               ├── message_bus
     │               ├── package
     │               ├── project_management
