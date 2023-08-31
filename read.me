@@ -30,7 +30,7 @@ Feature-Driven Folder Structure and Screaming Architecture
     ├── toolchain/
     ├── tools/
     ├── ui/
-    │   │   # It is all of ui product 
+    │   │   # It is all of ui product in upper structure of plugins
     │   ├── rw.ui/
     │       ├── events
     │       ├── manifest
@@ -38,24 +38,49 @@ Feature-Driven Folder Structure and Screaming Architecture
     │           ├── .storybook
     │           ├── __tests__
     │           ├── framework
-    │           ├── plugins 
+    │           ├── plugins
+    │               ├── about
+    │               ├── accounts
+    │               ├── admin
+    │               │   # It is sub module 
+    │               ├── apps
+    │               ├── dashboard
+    │               ├── datacenters
+    │               ├── debug
+    │               ├── events
+    │               ├── goodbyeworld
+    │               ├── helloworld
+    │               ├── message_bus
+    │               ├── package
+    │               ├── project_management
+    │               ├── redundancy
+    │               ├── resource_lookup
+    │               ├── rift_admin
+    │               ├── service
+    │               ├── sshkeys
+    │               ├── user_management
+    │               └── ._package
+    │               └── .npmrc
+    │               └── CMakeLists.txt
+    │               └── plugin_config.json
+    │               └── webpack.production.config.js
     │           ├── scripts
-      
-    │   ├── sdnc/ 
-    │   ├── card/
-    │   ├── checkbox/
-    │   ├── footer/
-    │   ├── header/
-    │   ├── todo-item/
-    │   └── todo-list/
-    │       ├── todo-list.component.js
-    │       └── todo-list.test.js
-    ├── contexts/
-    │   │   # no idea what this does but I couldn't leave this folder empty
-    │   └── todo-list.context.js
-    └── hooks/
-        │   # again no idea what this does but I couldn't leave this folder empty
-        └── use-todo-list.js
+    │           ├── tests
+    │           └── .babelrc 
+    │           └── .copyright-ignore
+    │           └── .gitignore
+    │           └── .npmrc
+    │           └── CMakeLists.txt
+    │           └── favicon.ico
+    │           └── installed_plugins.txt
+    │           └── package-lock.json
+    │           └── package.json
+    │           │   # It is entry point in this module
+    │           └── skyquake.js
+    │           └── skyquake_sh       
+    └── ├── sdnc/
+        │   # UI BE 
+        └── sdnc_connector
 
 
 
